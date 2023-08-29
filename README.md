@@ -23,7 +23,10 @@ Resources Used:
 • Flourish: Employed to create a visual chart for clear data representation.
 
 3. Web Portfolio with Data Engineering Projects
-Web portfolio showcasing various data engineering projects. Highlighting front-end skills while presenting data-driven projects. https://umericdev.z19.web.core.windows.net/
+Web portfolio showcasing various data engineering projects. Highlighting front-end skills while presenting data-driven projects.
+Site no longer live -> https://umericdev.z19.web.core.windows.net/
+Site has moved to -> https://umericdev.com/
+
 Resources Used:
 • Visual Studio: Employed to create a front-end website using HTML, CSS, and JavaScript.
 • Azure Storage Account: Utilized for data management and hosting of the static website.
