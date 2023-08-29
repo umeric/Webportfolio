@@ -1,0 +1,103 @@
+"indicator","state","average_anxiety_level","average_lowci","average_highci","confidence_interval_range"
+"Symptoms of Anxiety Disorder","Alabama",30.93,26.06,36.14,10.08
+"Symptoms of Depressive Disorder","Alabama",26.77,21.97,32.01,10.04
+"Symptoms of Anxiety Disorder","Alaska",29.98,25.59,34.69,9.10
+"Symptoms of Depressive Disorder","Alaska",24.34,20.25,28.82,8.57
+"Symptoms of Anxiety Disorder","Arizona",30.82,27.06,34.78,7.71
+"Symptoms of Depressive Disorder","Arizona",25.26,21.58,29.22,7.64
+"Symptoms of Anxiety Disorder","Arkansas",32.57,27.64,37.81,10.16
+"Symptoms of Depressive Disorder","Arkansas",27.02,22.37,32.09,9.72
+"Symptoms of Anxiety Disorder","California",31.48,28.64,34.45,5.81
+"Symptoms of Depressive Disorder","California",25.65,22.94,28.53,5.59
+"Symptoms of Anxiety Disorder","Colorado",30.34,26.64,34.25,7.61
+"Symptoms of Depressive Disorder","Colorado",23.15,19.73,26.86,7.13
+"Symptoms of Anxiety Disorder","Connecticut",28.87,24.81,33.20,8.39
+"Symptoms of Depressive Disorder","Connecticut",21.62,17.91,25.72,7.81
+"Symptoms of Anxiety Disorder","Delaware",27.01,22.06,32.45,10.39
+"Symptoms of Depressive Disorder","Delaware",21.46,16.73,26.87,10.14
+"Symptoms of Anxiety Disorder","District of Columbia",29.77,23.96,36.12,12.16
+"Symptoms of Depressive Disorder","District of Columbia",22.09,16.73,28.25,11.51
+"Symptoms of Anxiety Disorder","Florida",30.87,27.38,34.54,7.16
+"Symptoms of Depressive Disorder","Florida",24.92,21.58,28.49,6.91
+"Symptoms of Anxiety Disorder","Georgia",30.49,26.38,34.86,8.48
+"Symptoms of Depressive Disorder","Georgia",25.15,21.18,29.44,8.25
+"Symptoms of Anxiety Disorder","Hawaii",26.76,21.79,32.22,10.43
+"Symptoms of Depressive Disorder","Hawaii",22.50,17.54,28.16,10.62
+"Symptoms of Anxiety Disorder","Idaho",28.46,24.40,32.85,8.45
+"Symptoms of Depressive Disorder","Idaho",22.56,18.72,26.82,8.09
+"Symptoms of Anxiety Disorder","Illinois",29.47,25.73,33.44,7.72
+"Symptoms of Depressive Disorder","Illinois",23.29,19.74,27.17,7.44
+"Symptoms of Anxiety Disorder","Indiana",29.99,26.13,34.07,7.95
+"Symptoms of Depressive Disorder","Indiana",23.99,20.27,28.04,7.77
+"Symptoms of Anxiety Disorder","Iowa",26.79,22.73,31.18,8.45
+"Symptoms of Depressive Disorder","Iowa",21.54,17.67,25.84,8.16
+"Symptoms of Anxiety Disorder","Kansas",28.51,24.62,32.64,8.02
+"Symptoms of Depressive Disorder","Kansas",22.69,19.01,26.74,7.73
+"Symptoms of Anxiety Disorder","Kentucky",32.49,27.68,37.61,9.93
+"Symptoms of Depressive Disorder","Kentucky",26.84,22.29,31.83,9.54
+"Symptoms of Anxiety Disorder","Louisiana",34.88,29.62,40.44,10.82
+"Symptoms of Depressive Disorder","Louisiana",29.11,24.03,34.60,10.57
+"Symptoms of Anxiety Disorder","Maine",29.00,23.91,34.53,10.62
+"Symptoms of Depressive Disorder","Maine",20.75,16.20,25.94,9.74
+"Symptoms of Anxiety Disorder","Maryland",28.22,24.58,32.09,7.52
+"Symptoms of Depressive Disorder","Maryland",21.80,18.39,25.55,7.16
+"Symptoms of Anxiety Disorder","Massachusetts",28.97,25.53,32.62,7.09
+"Symptoms of Depressive Disorder","Massachusetts",21.75,18.49,25.30,6.81
+"Symptoms of Anxiety Disorder","Michigan",28.84,25.33,32.55,7.23
+"Symptoms of Depressive Disorder","Michigan",23.16,19.91,26.67,6.76
+"Symptoms of Anxiety Disorder","Minnesota",25.43,22.02,29.09,7.08
+"Symptoms of Depressive Disorder","Minnesota",19.29,16.05,22.88,6.84
+"Symptoms of Anxiety Disorder","Mississippi",33.03,27.26,39.17,11.91
+"Symptoms of Depressive Disorder","Mississippi",28.61,23.04,34.73,11.69
+"Symptoms of Anxiety Disorder","Missouri",30.39,26.23,34.83,8.60
+"Symptoms of Depressive Disorder","Missouri",24.28,20.24,28.68,8.44
+"Symptoms of Anxiety Disorder","Montana",27.94,23.24,33.04,9.79
+"Symptoms of Depressive Disorder","Montana",21.74,17.29,26.77,9.49
+"Symptoms of Anxiety Disorder","Nebraska",26.45,22.49,30.74,8.25
+"Symptoms of Depressive Disorder","Nebraska",21.22,17.46,25.40,7.94
+"Symptoms of Anxiety Disorder","Nevada",33.43,28.89,38.20,9.30
+"Symptoms of Depressive Disorder","Nevada",27.67,23.39,32.30,8.91
+"Symptoms of Anxiety Disorder","New Hampshire",27.79,23.29,32.65,9.36
+"Symptoms of Depressive Disorder","New Hampshire",20.89,16.72,25.59,8.86
+"Symptoms of Anxiety Disorder","New Jersey",29.32,25.36,33.55,8.19
+"Symptoms of Depressive Disorder","New Jersey",22.74,19.06,26.77,7.71
+"Symptoms of Anxiety Disorder","New Mexico",32.48,27.85,37.41,9.56
+"Symptoms of Depressive Disorder","New Mexico",26.49,22.07,31.30,9.24
+"Symptoms of Anxiety Disorder","New York",29.73,25.66,34.06,8.40
+"Symptoms of Depressive Disorder","New York",23.11,19.37,27.23,7.86
+"Symptoms of Anxiety Disorder","North Carolina",28.90,24.54,33.58,9.04
+"Symptoms of Depressive Disorder","North Carolina",22.83,18.66,27.45,8.79
+"Symptoms of Anxiety Disorder","North Dakota",25.58,20.26,31.53,11.27
+"Symptoms of Depressive Disorder","North Dakota",20.45,15.47,26.22,10.75
+"Symptoms of Anxiety Disorder","Ohio",29.46,25.22,33.99,8.77
+"Symptoms of Depressive Disorder","Ohio",24.17,20.10,28.63,8.52
+"Symptoms of Anxiety Disorder","Oklahoma",33.49,28.91,38.32,9.42
+"Symptoms of Depressive Disorder","Oklahoma",27.23,22.75,32.09,9.34
+"Symptoms of Anxiety Disorder","Oregon",32.88,29.49,36.41,6.91
+"Symptoms of Depressive Disorder","Oregon",25.72,22.47,29.19,6.71
+"Symptoms of Anxiety Disorder","Pennsylvania",29.62,25.86,33.59,7.73
+"Symptoms of Depressive Disorder","Pennsylvania",23.63,20.09,27.47,7.39
+"Symptoms of Anxiety Disorder","Rhode Island",29.12,23.77,34.96,11.19
+"Symptoms of Depressive Disorder","Rhode Island",22.00,17.11,27.58,10.47
+"Symptoms of Anxiety Disorder","South Carolina",28.68,24.06,33.66,9.60
+"Symptoms of Depressive Disorder","South Carolina",23.48,19.15,28.28,9.13
+"Symptoms of Anxiety Disorder","South Dakota",24.53,19.51,30.13,10.62
+"Symptoms of Depressive Disorder","South Dakota",19.51,14.94,24.82,9.88
+"Symptoms of Anxiety Disorder","Tennessee",30.90,26.76,35.29,8.54
+"Symptoms of Depressive Disorder","Tennessee",25.37,21.36,29.73,8.37
+"Symptoms of Anxiety Disorder","Texas",31.99,28.71,35.40,6.69
+"Symptoms of Depressive Disorder","Texas",26.45,23.31,29.77,6.46
+"Symptoms of Anxiety Disorder","Utah",29.75,26.24,33.44,7.19
+"Symptoms of Depressive Disorder","Utah",23.88,20.55,27.48,6.93
+"Symptoms of Anxiety Disorder","Vermont",28.29,22.91,34.19,11.28
+"Symptoms of Depressive Disorder","Vermont",21.05,16.13,26.71,10.58
+"Symptoms of Anxiety Disorder","Virginia",28.48,24.73,32.47,7.74
+"Symptoms of Depressive Disorder","Virginia",22.53,18.95,26.44,7.49
+"Symptoms of Anxiety Disorder","Washington",30.59,27.50,33.81,6.30
+"Symptoms of Depressive Disorder","Washington",24.02,21.09,27.14,6.05
+"Symptoms of Anxiety Disorder","West Virginia",33.10,27.32,39.30,11.98
+"Symptoms of Depressive Disorder","West Virginia",27.25,21.82,33.25,11.43
+"Symptoms of Anxiety Disorder","Wisconsin",25.71,21.91,29.81,7.90
+"Symptoms of Depressive Disorder","Wisconsin",20.32,16.83,24.18,7.35
+"Symptoms of Anxiety Disorder","Wyoming",27.91,22.70,33.64,10.94
+"Symptoms of Depressive Disorder","Wyoming",22.07,17.07,27.82,10.76

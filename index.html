@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UmEricDev</title>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="boxicons-2.0.9/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css" integrity="sha384-zIaWifL2YFF1qaDiAo0JFgsmasocJ/rqu7LKYH8CoBEXqGbb9eO+Xi3s6fQhgFWM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body id="home">
+    <div class="scroll-up-btn">
+        <i class="bx bx-up-arrow-alt bx-sm"></i>
+    </div>
+
+    <div class="showcase">
+        <nav class="navbar">
+            
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Projects</a></li>
+                <li><a href="https://github.com/umeric" target="_blank">Github</a></li>
+                <li><a href="https://www.linkedin.com/in/eric-um-048398166/" target="_blank">LinkedIn</a></li>
+                <li><a href="mailto:umeric@yahoo.com">Contact</a></li>
+            </ul>
+            <!-- <div class="menu-btn">
+                <i class="bx bx-menu bx-md"></i>
+            </div> -->
+        </nav>
+
+        <div class="showcase-content">
+            <div class="showcase-text">
+                <!--<div class="text-1">Hey, my name is</div>-->
+                <div class="text-2">Eric Um</div>
+                <div class="background-box"> <!-- New div for the white transparent background -->
+                  <p>Salesforce Application Analyst with 3 years of experience in IT and healthcare. Aspiring to transition into the role of a data engineer, I understand the pivotal role data plays in driving business growth and problem-solving. With a keen interest in data engineering, I am determined to contribute to data-driven solutions. Motivated to learn and thrive in a dynamic data-driven environment, my goal is to make a positive impact through my valuable contributions.
+                    <br> </p>
+                </div>
+                <div class="experience">
+                  <h3>Certification</h3>
+                  <ul>
+                    <li>DP - 900 | Microsoft Certified: Azure Data Fundamentals</li>
+                    <li>DP - 203 | Microsoft Certified: Azure Data Engineer Associate</li>
+                  </ul>
+                </div>
+                <a href="Media/UmEric823.pdf" class="btn-md" target="_blank">Resume</a>
+              </div>
+
+            <div class="showcase-vid"> 
+              <video autoplay loop muted plays-inline class="back-video">
+                <source src="Media/timelapse2.mp4" type="video/mp4" class ="vid1">
+            </video>
+            </div>
+        </div> 
+    </div>
+       
+      <!-- Skills Section Styling -->
+    <!-- About Section Styling -->
+
+
+<!--End project 2-->
+<section id="about" class="about">
+  <div class="container">
+    <div class="about-content">
+      <div class="column left" id="slider1">
+        <img id="person">
+        <div class="button">
+          <button class="prev-btn">
+            <i class="previous">Previous</i>
+          </button>
+          <button class="next-btn">
+            <i class="next">Next</i>
+          </button>
+          <div class="image-number1">1 of 3</div>
+        </div>
+      </div>
+      <div class="column right">
+        <div class="text">Project 1 | <span class="typing-2">Houston Best Rated Foods</span></div>
+        <p>Resource: <a href="https://console.cloud.google.com/apis/library/places-backend.googleapis.com?project=de-food-390202" target="_blank" style="color: rgb(222, 222, 222);">https://console.cloud.google.com/apis/library/places-backend.googleapis.com?project=de-food-390202</a></p>
+
+        <dl>
+          <div class="question">
+            <dt>1. What are the top-rated restaurants in Houston with a rating higher than 4.5?</dt>
+            <dd>Houston boasts a selection of top-rated restaurants with impressive Google ratings higher than 4.5. Some of these exceptional dining spots include Vic & Anthony's Steakhouse, Brennan's of Houston, Barnaby's Cafe, Frank's Pizza, Saint Arnold Brewing Company, Huynh Restaurant, Zydeco Louisiana Diner, and Trez Bistro & Wine Bar. Enjoy the finest culinary experiences that Houston has to offer at these highly recommended establishments!</dd>
+            <p>SELECT *
+              FROM [dbo].[ozzieblob1]
+              WHERE [rating] > 4.5;
+              </p>
+            <a href="#" class="view-query">View Query</a>
+          </div>
+          <div class="question">
+            <dt>2. Top 5 highly-rated restaurants in Houston with over 100 ratings?</dt>
+            <dd>The top 5 highly-rated restaurants in Houston from our data shows each boasting ratings above 4.5 and with over 100 ratings, are Saint Arnold Brewing Company with a rating of 4.7, Zydeco Louisiana Diner with a rating of 4.6, Trez Bistro & Wine Bar with a rating of 4.6, Frank's Pizza with a rating of 4.6, and Vic & Anthony's Steakhouse with a rating of 4.6. These restaurants have earned significant popularity and excellent reviews from their patrons.</dd>
+            <p>SELECT TOP (5) [name], [rating], [user_ratings_total]
+              FROM [dbo].[ozzieblob1]
+              WHERE [rating] > 4.5 AND [user_ratings_total] > 100
+              ORDER BY [rating] DESC, [user_ratings_total] DESC;
+              </p>
+            <a href="#" class="view-query">View Query</a>
+          </div>
+          <div class="question">
+            <dt>3. Which affordable yet highly-rated restaurants are among the top 5 in Houston?</dt>
+            <dd>The top 5 affordable yet highly-rated restaurants are: Saint Arnold Brewing Company (4.7), Zydeco Louisiana Diner (4.6), Huynh Restaurant (4.6), Frank's Pizza (4.6), and Barnaby's Cafe (4.6). Enjoy exceptional dining without breaking the bank!</dd>
+            <p>SELECT TOP (5) [name], [rating], [price_level], [user_ratings_total]
+              FROM [dbo].[ozzieblob1]
+              WHERE [price_level] < 3.0 AND [rating] > 4.0
+              ORDER BY [rating] DESC;</p>
+            <a href="#" class="view-query">View Query</a>
+          </div>
+          <!-- Other questions -->
+        </dl>
+      </div>
+    </div>
+  </div>
+</section>
+<!--COPY Second-->
+
+<!--END-->
+<!-- Second Image Slider -->
+<section id="about" class="about">
+  <div class="container"> 
+    <div class="about-content">
+      <div class="column left" id="slider2">
+        <img id="person2">
+        <div class="button">
+          <button class="prev-btn">
+            <i class="previous">Previous</i>
+          </button>
+          <button class="next-btn">
+            <i class="next">Next</i>
+          </button>
+          <div class="image-number">1 of 3</div> <!-- Add a new element to display the image number -->
+        </div>
+      </div>
+      <div class="column right">
+        <div class="text">Project 2 | <span class="typing-2">Depression and Anxiety Based on Reported Frequency of Symptoms During Last 7 Days</span></div>
+        <p>Resource: <a href="https://data.cdc.gov/NCHS/Indicators-of-Anxiety-or-Depression-Based-on-Repor/8pt5-q6wp" target="_blank" style="color: rgb(222, 222, 222);">https://data.cdc.gov/NCHS/Indicators-of-Anxiety-or-Depression-Based-on-Repor/8pt5-q6wp</a></p>
+
+        <!--<h3>Houston Best food 2023</h3>-->
+        <dl>
+          <div class="question">
+            <dt>1. What is the average anxiety or depression level for each race/ethnicity?</dt>
+            <dd>The data reveals varying anxiety and depressive symptom percentages across different racial and ethnic groups. "Non-Hispanic, other races and multiple races" have the highest anxiety level (38.94%), while "Hispanic or Latino" follow closely (33.91%). Meanwhile, "Non-Hispanic Asian, single race" individuals show the lowest depressive symptoms (19.64%).</dd>
+            <p>SELECT indicator, subgroup AS race_ethnicity, 
+              CONCAT(CAST(AVG(value) AS DECIMAL(10,2)), '%') AS average_anxiety_depression_level_percentage
+       FROM depress
+       WHERE indicator IN ('Symptoms of Anxiety Disorder', 'Symptoms of Depressive Disorder') 
+             AND "group" = 'By Race/Hispanic ethnicity'
+       GROUP BY indicator, subgroup
+       ORDER BY race_ethnicity;</p>
+            <a href="#" class="view-query">View Query</a>
+          </div>
+          <div class="question">
+            <dt>2. What is the average depression level over the years for the Symptoms of Depressive Disorder?</dt>
+            <dd>Over the years, the average depression level for the Symptoms of Depressive Disorder has shown a gradual reduction, with some slight fluctuations in certain years. In 2020, the average depression level was 25.65, which decreased to 23.73 in 2021. It slightly increased to 23.78 in 2022 and further decreased to 22.56 in 2023.</dd>
+            <p>SELECT 
+              TO_CHAR(time_period_start_date, 'YYYY') AS year,
+              CAST(AVG(value) AS numeric(10, 2)) AS average_depression_level
+            FROM depress
+            WHERE indicator = 'Symptoms of Depressive Disorder'
+            GROUP BY year
+            ORDER BY year;</p>
+            <a href="#" class="view-query">View Query</a>
+          </div>
+        
+          <div class="question">
+            <dt>3. What are the top 5 states with the highest anxiety levels?</dt>
+            <dd>The top 5 states with the highest anxiety levels are Louisiana, Oklahoma, Nevada, West Virginia, and Mississippi.</dd>
+            <p>SELECT state, CAST(AVG(value) AS DECIMAL(10, 2)) AS average_anxiety_level
+              FROM depress
+              WHERE indicator = 'Symptoms of Anxiety Disorder'
+                    AND "group" = 'By State'
+              GROUP BY state
+              ORDER BY average_anxiety_level DESC
+              LIMIT 5;</p>
+              <a href="#" class="view-query">View Query</a>
+          </div>
+        
+          <div class="question">
+            <dt>4. Are anxiety and depression levels different across age groups?</dt>
+            <dd>Anxiety and depression levels vary across age groups. The highest levels are observed in the "18 - 29 years" age group, gradually decreasing with older age groups. The lowest levels are recorded in the "80 years and above" age group.</dd>
+            <p>SELECT d1.subgroup AS age_group, CAST(AVG(d1.value) AS DECIMAL(10, 2)) AS average_anxiety_level, CAST(AVG(d2.value) AS DECIMAL(10, 2)) AS average_depression_level
+              FROM depress d1
+              JOIN depress d2 ON d1.subgroup = d2.subgroup
+              WHERE d1.indicator = 'Symptoms of Anxiety Disorder'
+                    AND d2.indicator = 'Symptoms of Depressive Disorder'
+                    AND d1."group" = 'By Age'
+                    AND d2."group" = 'By Age'
+              GROUP BY d1.subgroup;</p>
+              <a href="#" class="view-query">View Query</a>
+          </div>
+          <!-- Other questions -->
+
+          <!--second project-->
+        </dl>
+       <!-- <a href="https://github.com/umeric" class="btn-md" target="_blank">View Code</a> -->
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<footer id="footer">
+<p>2023 Eric Portfolio</p>
+</footer>
+
+<button onclick="scrollToTop()" class="scroll-up-btn">
+    <i class="bx bx-up-arrow-alt bx-sm"></i>
+  </button>
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="https://public.flourish.studio/resources/embed.js"></script>
+<script src="./script.js"></script>
+
+
+</body>
+</html>
